@@ -1784,9 +1784,12 @@ body section#contant .post-info span h4 {
          width: 100%;
          text-align: center;
     }
-     .logo img {
-         width: 160px;
-    }
+    .logo img {
+    max-width: 160px;
+    height: auto;
+}
+
+
      .main-menu-section {
          float: right;
          width: 100%;
