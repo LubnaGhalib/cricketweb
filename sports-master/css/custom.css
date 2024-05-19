@@ -1786,7 +1786,7 @@ body section#contant .post-info span h4 {
     }
     .logo img {
     width: 50px;
-}
+    }
 
 
      .main-menu-section {
@@ -1807,8 +1807,8 @@ body section#contant .post-info span h4 {
          display: block;
     }
      .slider-contant h3 {
-         font-size: 25px;
-         font-weight: 700;
+         font-size: 20px;
+         font-weight: 500;
          text-shadow: none;
          color: #fff;
          text-align: left;
