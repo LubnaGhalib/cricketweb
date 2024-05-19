@@ -18,13 +18,13 @@
      padding: 10px 15px;
 }
  .skyblue {
-     background-image:url('../images/main-slider-img1.jpg');
+     background-image:url('../images/j.jpg');
 }
  .darkerskyblue {
      background-image:url('../images/bg1.png');
 }
  .deepskyblue {
-     background-image:url('../images/bg1.png');
+     background-image:url('../images/main-slider-img1.jpg');
 }
  .carousel-indicators {
      bottom: 0;
@@ -110,7 +110,7 @@
      background: #1c72ce;
      font-size: 15px;
      text-transform: uppercase;
-     min-width: 160px;
+     min-width: 130px;
      height: 50px;
      border-radius: 5px;
 }
@@ -1807,8 +1807,8 @@ body section#contant .post-info span h4 {
          display: block;
     }
      .slider-contant h3 {
-         font-size: 20px;
-         font-weight: 500;
+         font-size: 25px;
+         font-weight: 700;
          text-shadow: none;
          color: #fff;
          text-align: left;
