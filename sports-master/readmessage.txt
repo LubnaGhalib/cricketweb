@@ -1,0 +1,1 @@
+Registration successful. Please check your email for further instructions.
