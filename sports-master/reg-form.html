@@ -7,38 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="register-container">
-        <h2>Register</h2>
-        <form id="registerForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit" onclick="loadData()">Register</button>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <label for="regUsername">Username:</label>
+            <input type="text" id="regUsername" name="regUsername" required>
+            <label for="regPassword">Password:</label>
+            <input type="password" id="regPassword" name="regPassword" required>
+            <button type="submit">Register</button>
+            <p id="registrationMessage"></p>
         </form>
-        <div clas ="message"></div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-function loadData() {
-    event.preventDefault(); // Prevent the default form submission
-
-                let username = $('#username').val();
-                let password = $('#password').val();
-
-                // Simple validation for username and password
-                if (username.length < 6 || password.length < 6) {
-                    $("message").text('Username and password must be at least 6 characters long.');
-                    return;
-                }
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function(){
-if(this.readyState== 4 && this.status == 200){ document.getElementById("message").innerHTML = this.responseText; }
-else if(this.readyState== 4 && this.status == 404)
- {
-  document.getElementById("message").innerHTML = "File not Found";
-xhttp.open('GET', "readmessage.txt", true);
-xhttp.send();
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
